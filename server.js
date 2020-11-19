@@ -1,14 +1,3 @@
-const http = require("http");
-const express = require("express");
-const app = express();
-app.get("/", (request, response) => {
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://اسم البروجيكت.glitch.me/`);
-}, 280000);
-
 // كل البكجات الي ممكن تحتجها في اي بوت
 const { Client, RichEmbed } = require("discord.js");
 var { Util } = require("discord.js");
@@ -4839,6 +4828,4 @@ client.on("message", async msg => {
       }
     }
   }
-});
 LOka.login(process.env.TOKEN)
-LOka.login("Nzc4ODgyMjkxMTkwNTk1NjA0.X7YcqQ.W9TNT9op9o0eiiZWkTCeco-WijM"); ///تعديل هام
